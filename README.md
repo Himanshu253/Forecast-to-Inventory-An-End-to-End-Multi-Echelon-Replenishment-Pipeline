@@ -24,13 +24,12 @@ In retail, uncalibrated high-quantile forecasts can silently break a replenishme
 
 The project executes a decision-consistent rolling-origin backtest simulating a realistic monthly model-refresh production cadence:
 
- Raw Retail Panel 
- ┣  Feature Engineering (Leak-free, target = forward L+R day demand sum)
- ┣  Quantile Forecaster (XGBoost GPU, multi-quantile reg:quantileerror) 
- ┣  Optimization Policy (Newsvendor order-up-to OR Multi-echelon MILP)
- ┣  Custom Simulator (Real demand, real lead times, DC allocation under scarcity)
- ┗  Business Metrics (Fill rate %, Total Cost INR, Inventory value)
-
+ Raw Retail Panel
+* Feature Engineering (Leak-free, target = forward L+R day demand sum).
+* Quantile Forecaster (XGBoost GPU, multi-quantile reg:quantileerror) 
+* Optimization Policy (Newsvendor order-up-to OR Multi-echelon MILP)
+* Custom Simulator (Real demand, real lead times, DC allocation under scarcity)
+* Business Metrics (Fill rate %, Total Cost INR, Inventory value)
 
 
 ---
