@@ -1,0 +1,2 @@
+# Forecast-to-Inventory-An-End-to-End-Multi-Echelon-Replenishment-Pipeline
+An end-to-end retail replenishment pipeline bridging predictive ML and prescriptive operations research. It integrates leak-free XGBoost multi-quantile demand forecasting with a multi-echelon MILP optimization strategy. A custom rolling-origin simulator evaluates true business impact via fill rates and total inventory costs rather than RMSE.
