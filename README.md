@@ -13,12 +13,6 @@ This project bridges the gap between predictive machine learning and prescriptiv
 
 ---
 
-##  The Core Philosophy: Why Not RMSE?
-Most public data science portfolios stop at building a forecaster and reporting statistical errors like `RMSE` or `MAPE`. This project takes the next step into **Prescriptive Analytics**. 
-
-In retail, uncalibrated high-quantile forecasts can silently break a replenishment policy, leading to severe under-stocking. Here, every candidate model feeds the *same* replenishment policy, the plan is executed against *actual* demand in a custom simulator, and models are compared strictly on **service level (fill rate) and financial cost**.
-
----
 
 ##  Pipeline Architecture
 
